@@ -1,13 +1,17 @@
 package main
 
 import (
-	"github.com/ajmclaugh/HelloGo"
 	"fmt"
+
+	"github.com/ajmclaugh/HelloGo"
 )
 
 func main() {
-	hello := "Hello"
-	HelloGo.AddWorld(&hello)
+	hello_point := "Hello"
+	HelloGo.AddWorldPointer(&hello_point)
+	fmt.Println(hello_point)
+
+	hello := HelloGo.AddWorld("hello")
 	fmt.Println(hello)
 
 }
