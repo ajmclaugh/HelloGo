@@ -1,4 +1,4 @@
-package HelloGo
+package Hello_World
 
 import (
 	"regexp"

@@ -1,4 +1,4 @@
-package HelloGo
+package Hello_World
 
 func AddWorldPointer(hello *string) {
 	*hello = *hello + " World!"
