@@ -8,5 +8,3 @@ func AddWorld(hello string) string {
 	hello = hello + " World!"
 	return hello
 }
-
-//https://blog.logrocket.com/benchmarking-golang-improve-function-performance/
